@@ -95,7 +95,7 @@ Run the server locally. It will be run with Nodemon and ready to serve on port `
 
 To run docker container that is built for production:
 ```
-yarn run prod
+yarn run build-prod
 ```
 open browser and go to http://localost:3000
 
