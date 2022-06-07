@@ -13,7 +13,7 @@ const CONFIG = {
         AUTHORS: package_json_1.default.authors,
         HOST: process.env.APP_HOST,
         BASE_URL: process.env.API_BASE_URL,
-        PORT: process.env.NODE_ENV === 'test' ? 8888 : process.env.PORT || 8080,
+        PORT: process.env.NODE_ENV === 'test' ? 8888 : process.env.PORT || 3000,
         ENV: process.env.NODE_ENV,
     },
     LOG: {
