@@ -80,7 +80,7 @@ import routes from '@/routes'
 
 ## Local Development
 
-Run the server locally. It will be run with Nodemon and ready to serve on port `8080` (unless you specify it on your `.env`)
+Run the server locally. It will be run with Nodemon and ready to serve on port `3000` (unless you specify it on your `.env`)
 
 ```bash
  yarn start # or npm start
@@ -91,19 +91,18 @@ Run the server locally. It will be run with Nodemon and ready to serve on port `
 <br>
 <br>
 
-## Production
+## Deploy to prod
 
-First, build the application.
-
-```bash
- yarn build # or npm run build
+To run docker container that is built for production:
 ```
-
-Then, use [`pm2`](https://github.com/Unitech/pm2) to start the application as a service.
-
-```bash
- yarn service:start # or npm run service:start
+yarn run prod
 ```
+open browser and go to http://localost:3000
 
+Or push image to docker repository (deploy):
+```
+yarn run push-image
+```
+    NOTE: If push to docker registry fails login to Dockerhub. Ask admin for credentials.
 <br>
 <br>
