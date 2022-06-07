@@ -25,7 +25,8 @@
     "prettier": "prettier --check . || (echo \"Format the files with: 'yarn fmt'\" && exit 1)",
     "fmt": "prettier --write .",
     "prod": "yarn --prod",
-    "build-prod": "sudo docker build -f .Dockerfiles/prod.Dockerfile -t kems-backend . && sudo docker run -p 3000:3000 kems-backend"
+    "build-prod": "sudo docker build -f .Dockerfiles/prod.Dockerfile -t kems-backend . && sudo docker run -p 3000:3000 kems-backend",
+    "push-image": "sudo docker push kems-backend:latest"
   },
   "lint-staged": {
     "*.{ts,js}": [
