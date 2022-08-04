@@ -114,10 +114,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@krtech-digital/krtech-ui@^0.1.1":
-  version "0.1.1"
-  resolved "https://npm.pkg.github.com/download/@krtech-digital/krtech-ui/0.1.1/19239fc055e9ef5443e6cf1d87cc72b46e4e5d82726c22c2783bb969dccd782e#420a6eb256165782e32860ea3f618385d7923bb7"
-  integrity sha512-lXo4qflpgdlUkOWjMRiwx1BLb8/u7VImooWxyZo02gHAa5cs/h9uSRQsY0hybgiQKM8UPTLB+eZvoL7AVIpo6Q==
+"@krtech-digital/krtech-ui@^0.1.2":
+  version "0.1.2"
+  resolved "https://npm.pkg.github.com/download/@krtech-digital/krtech-ui/0.1.2/7221a1061c2e874bbae31f99843b45cb819232fa9ba2ebbc2c73518bfc2e3ad0#c3128a50b2f78a4801fc8116e3629f99638642aa"
+  integrity sha512-db85cuascTIolSCB9rBfxbUa7h6+ywHhWU2hecEi7Ktv2EKwy90hFIShDT91XTPBSTYCEBSuMD24kz4YXWA02w==
   dependencies:
     next "^12.1.6"
     storybook-css-modules "^1.0.7"
