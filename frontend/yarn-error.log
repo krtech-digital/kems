@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /Users/admin/.node/corepack/yarn/1.22.15/bin/yarn.js
+  /Users/dominikkukovec/.nvm/versions/node/v16.15.0/bin/node /Users/dominikkukovec/.nvm/versions/node/v16.15.0/bin/yarn
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -42,7 +42,7 @@ npm manifest:
       "push-image": "sudo docker push kems-frontend:latest"
     },
     "dependencies": {
-      "@krtech-digital/krtech-ui": "^0.1.1",
+      "@krtech-digital/krtech-ui": "^0.1.2",
       "next": "12.0.3",
       "react": "17.0.2",
       "react-dom": "17.0.2"
