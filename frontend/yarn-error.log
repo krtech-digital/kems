@@ -1,5 +1,5 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\anama\Projekti\krtech-ui\.yarn\releases\yarn-1.22.19.cjs
+  /Users/dominikkukovec/.nvm/versions/node/v16.15.0/bin/node /Users/dominikkukovec/.nvm/versions/node/v16.15.0/bin/yarn
 
 PATH: 
   C:\Users\anama\Projekti\krtech-ui\kems\frontend\node_modules\.bin;C:\Users\anama\Projekti\krtech-ui\kems\node_modules\.bin;C:\Users\anama\Projekti\krtech-ui\node_modules\.bin;C:\Users\anama\Projekti\node_modules\.bin;C:\Users\anama\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Users\anama\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\anama\bin;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Users\anama\AppData\Local\Microsoft\WindowsApps;C:\Users\anama\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\anama\AppData\Local\GitHubDesktop\bin;C:\Users\anama\AppData\Roaming\npm;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\Users\anama\node_modules\.bin
@@ -42,7 +42,7 @@ npm manifest:
       "push-image": "sudo docker push kems-frontend:latest"
     },
     "dependencies": {
-      "@krtech-digital/krtech-ui": "^0.1.1",
+      "@krtech-digital/krtech-ui": "^0.1.2",
       "next": "12.0.3",
       "react": "17.0.2",
       "react-dom": "17.0.2"

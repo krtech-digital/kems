@@ -4,7 +4,7 @@ import { Button, Checkbox, Input } from "@krtech-digital/krtech-ui";
 const Register: NextPage = () => {
   return (
     <div>
-         <Button buttonText="Hello Register" variant="primary"/>      
+         <Button buttonText="Hello Register" variant="primary"/>    
     </div>
   );
 };

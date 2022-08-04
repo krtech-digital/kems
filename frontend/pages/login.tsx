@@ -1,7 +1,12 @@
 import type { NextPage } from "next";
+import { Input } from "@krtech-digital/krtech-ui";
 
-const login: NextPage = () => {
-  return <div>Hello Login</div>;
+const Login: NextPage = () => {
+  return (
+    <div>
+      <Input label="Username" />
+    </div>
+  );
 };
 
-export default login;
+export default Login;
