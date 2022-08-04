@@ -5,6 +5,7 @@ const Login: NextPage = () => {
   return (
     <div>
       <Input label="Username" />
+      <Input label="Password" />
     </div>
   );
 };
