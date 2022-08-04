@@ -1,0 +1,25 @@
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.content{
+    padding: 30px;
+    top: 100px;
+    position: absolute;
+    border: 1px grey solid;
+    border-radius: 10px;
+}
+
+.break
+{
+    height: 20px;
+}
+
+.input
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

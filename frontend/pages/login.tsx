@@ -1,19 +1,20 @@
 import type { NextPage } from "next";
-<<<<<<< HEAD
+import { Button, Checkbox, Input } from "@krtech-digital/krtech-ui";
+import style from "../styles/Register.module.css";
 
 const Login: NextPage = () => {
-  return (
-      <div>Login</div>
-=======
-import { Input } from "@krtech-digital/krtech-ui";
-
-const Login: NextPage = () => {
-  return (
-    <div>
-      <Input label="Username" />
-    </div>
->>>>>>> f8a3462ae7fd11608f6effce367d83432e80add5
-  );
+    return (
+        <div className={style.main}>
+            <div className={style.content}>
+                <div className={style.input}>
+                    <Input label="Enter e-mail" id="email-username" placeholder="name@email.com" ></Input>
+                    <Input label="Enter password" id="" placeholder="password"></Input>
+                </div>
+                <div className={style.break}></div>
+                <Button buttonText="register" variant="primary"></Button>
+            </div>
+        </div>
+    );
 };
 
 export default Login;

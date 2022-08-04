@@ -1,0 +1,30 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    position: absolute;
+    height: 100%;
+    background-color: grey;
+}
+
+
+
+.bannerimg{
+    position: relative;
+    width: 100vh;
+    height: 200px;
+    background-color: palevioletred;
+}
+
+.bannerimg::after{
+    position: absolute;
+    left: calc(50% - 50px);
+    top: 150px;
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    border-radius: 50%;
+}
