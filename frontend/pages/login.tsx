@@ -1,3 +1,4 @@
+import { Input } from "@krtech-digital/krtech-ui";
 import type { NextPage } from "next";
 
 const Login: NextPage = () => {
