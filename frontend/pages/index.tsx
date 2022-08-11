@@ -3,6 +3,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import { Button } from "@krtech-digital/krtech-ui";
+import { Login } from "../utils/fetch";
 
 const Home: NextPage = () => {
   return (
@@ -18,7 +19,10 @@ const Home: NextPage = () => {
         </Head>
       </div>
       <div>
-        <Button buttonText="Hello" variant="primary" />
+        <Button buttonText="Hello" variant="primary" onClick={() => {
+          // console.log("object");
+          console.log(Login("karlo", "erik"));
+}}/>
       </div>
     </div>
   );
