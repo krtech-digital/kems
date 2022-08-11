@@ -1,26 +1,26 @@
 Arguments: 
-  /Users/dominikkukovec/.nvm/versions/node/v16.15.0/bin/node /Users/dominikkukovec/.nvm/versions/node/v16.15.0/bin/yarn
+  /usr/local/bin/node /usr/local/bin/yarn
 
 PATH: 
-  /Users/dominikkukovec/.nvm/versions/node/v16.15.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 Yarn version: 
   1.22.18
 
 Node version: 
-  16.15.0
+  16.15.1
 
 Platform: 
-  darwin arm64
+  darwin x64
 
 Trace: 
-  Error: https://npm.pkg.github.com/@krtech-digital%2fkrtech-ui: Your request could not be authenticated by the GitHub Packages service. Please ensure your access token is valid and has the appropriate scopes configured.
-      at Request.params.callback [as _callback] (/Users/dominikkukovec/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:66138:18)
-      at Request.self.callback (/Users/dominikkukovec/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:140883:22)
+  Error: https://registry.yarnpkg.com/@krtech-digital%2fkrtech-ui: Not found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/cli.js:66138:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/lib/cli.js:140883:22)
       at Request.emit (node:events:527:28)
-      at Request.<anonymous> (/Users/dominikkukovec/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:141855:10)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141855:10)
       at Request.emit (node:events:527:28)
-      at IncomingMessage.<anonymous> (/Users/dominikkukovec/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:141777:12)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:141777:12)
       at Object.onceWrapper (node:events:641:28)
       at IncomingMessage.emit (node:events:539:35)
       at endReadableNT (node:internal/streams/readable:1345:12)
