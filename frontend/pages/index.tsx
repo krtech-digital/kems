@@ -13,7 +13,7 @@ const Home: NextPage = () => {
           <link rel="icon" href="/favicon.ico" />
         </Head>
       </div>
-      <div></div>
+      <div>Miha</div>
     </div>
   )
 }
