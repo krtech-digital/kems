@@ -1,0 +1,22 @@
+.test{
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.test p {
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 2em;
+}
+
+.test label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.test button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
