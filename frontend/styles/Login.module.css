@@ -1,0 +1,10 @@
+.Container {
+  width: 450px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+  position: relative;
+  border: 3px solid #195273;
+  border-radius: 20px;
+}

@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/dominikkukovec/.nvm/versions/node/v16.15.0/bin/node /Users/dominikkukovec/.nvm/versions/node/v16.15.0/bin/yarn
+  C:\Program Files\nodejs\node.exe C:\Users\Vilko\AppData\Local\npm-cache\_npx\c094c3349f8dd527\node_modules\yarn\bin\yarn.js
 
 PATH: 
   C:\Users\Vilko\Projects\kems\frontend\node_modules\.bin;C:\Users\Vilko\Projects\kems\node_modules\.bin;C:\Users\Vilko\Projects\node_modules\.bin;C:\Users\Vilko\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\run-script\lib\node-gyp-bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Vilko\AppData\Local\Microsoft\WindowsApps;;C:\Users\Vilko\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Vilko\AppData\Roaming\npm;C:\Users\Vilko\AppData\Local\npm-cache\_npx\c094c3349f8dd527\node_modules\.bin
@@ -14,17 +14,17 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://npm.pkg.github.com/download/@krtech-digital/krtech-ui/0.1.1/19239fc055e9ef5443e6cf1d87cc72b46e4e5d82726c22c2783bb969dccd782e: Request failed "401 Unauthorized"
-      at ResponseError.ExtendableBuiltin (C:\Users\Vilko\AppData\Local\npm-cache\_npx\c094c3349f8dd527\node_modules\yarn\lib\cli.js:696:66)
-      at new ResponseError (C:\Users\Vilko\AppData\Local\npm-cache\_npx\c094c3349f8dd527\node_modules\yarn\lib\cli.js:802:124)
-      at Request.<anonymous> (C:\Users\Vilko\AppData\Local\npm-cache\_npx\c094c3349f8dd527\node_modules\yarn\lib\cli.js:66215:16)
+  Error: https://npm.pkg.github.com/@krtech-digital%2fkrtech-ui: Your request could not be authenticated by the GitHub Packages service. Please ensure your access token is valid and has the appropriate scopes configured.
+      at Request.params.callback [as _callback] (C:\Users\Vilko\AppData\Local\npm-cache\_npx\c094c3349f8dd527\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\Vilko\AppData\Local\npm-cache\_npx\c094c3349f8dd527\node_modules\yarn\lib\cli.js:140890:22)
       at Request.emit (node:events:527:28)
-      at Request.module.exports.Request.onRequestResponse (C:\Users\Vilko\AppData\Local\npm-cache\_npx\c094c3349f8dd527\node_modules\yarn\lib\cli.js:141767:10)
-      at ClientRequest.emit (node:events:527:28)
-      at HTTPParser.parserOnIncomingClient (node:_http_client:631:27)
-      at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
-      at TLSSocket.socketOnData (node:_http_client:494:22)
-      at TLSSocket.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Users\Vilko\AppData\Local\npm-cache\_npx\c094c3349f8dd527\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Users\Vilko\AppData\Local\npm-cache\_npx\c094c3349f8dd527\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
 
 npm manifest: 
   {
@@ -42,7 +42,7 @@ npm manifest:
       "push-image": "sudo docker push kems-frontend:latest"
     },
     "dependencies": {
-      "@krtech-digital/krtech-ui": "^0.1.2",
+      "@krtech-digital/krtech-ui": "^0.1.4",
       "next": "12.0.3",
       "react": "17.0.2",
       "react-dom": "17.0.2"
@@ -177,10 +177,10 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
     integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
   
-  "@krtech-digital/krtech-ui@^0.1.1":
-    version "0.1.1"
-    resolved "https://npm.pkg.github.com/download/@krtech-digital/krtech-ui/0.1.1/19239fc055e9ef5443e6cf1d87cc72b46e4e5d82726c22c2783bb969dccd782e#420a6eb256165782e32860ea3f618385d7923bb7"
-    integrity sha512-lXo4qflpgdlUkOWjMRiwx1BLb8/u7VImooWxyZo02gHAa5cs/h9uSRQsY0hybgiQKM8UPTLB+eZvoL7AVIpo6Q==
+  "@krtech-digital/krtech-ui@^0.1.2":
+    version "0.1.2"
+    resolved "https://npm.pkg.github.com/download/@krtech-digital/krtech-ui/0.1.2/7221a1061c2e874bbae31f99843b45cb819232fa9ba2ebbc2c73518bfc2e3ad0#c3128a50b2f78a4801fc8116e3629f99638642aa"
+    integrity sha512-db85cuascTIolSCB9rBfxbUa7h6+ywHhWU2hecEi7Ktv2EKwy90hFIShDT91XTPBSTYCEBSuMD24kz4YXWA02w==
     dependencies:
       next "^12.1.6"
       storybook-css-modules "^1.0.7"
