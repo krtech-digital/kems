@@ -11,8 +11,8 @@ const Register: NextPage = () => {
         <Input label="Username"></Input>
         <Input type="password" label="Password"></Input>
         <Button
-          style={{ marginTop: "10px" }}
-          buttonText="Hello Register"
+          style={{ marginTop: "10px", marginLeft: "110px" }}
+          buttonText="Sign up"
           variant="primary"
         />
       </div>
