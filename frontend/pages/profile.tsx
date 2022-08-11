@@ -6,10 +6,12 @@ const Login: NextPage = () => {
     return (
         <div className={style.main}>
             <div className={style.content}>
-                <div className={style.banner}>
-                    <img className={style.bannerimg} src="https://pcchip.hr/ostalo/zanimljivosti/znadete-li-sto-je-bliss/" alt="" />
+                <div>
+                    <p className={style.username}>username</p>
+                    <p className={style.email}>email</p>
                 </div>
-                name email
+                <br></br>
+                <Button buttonText="Log out" variant="primary"></Button>
             </div>
         </div>
     );

@@ -7,8 +7,8 @@ const Login: NextPage = () => {
         <div className={style.main}>
             <div className={style.content}>
                 <div className={style.input}>
-                    <Input label="Enter e-mail" id="email-username" placeholder="name@email.com" ></Input>
-                    <Input label="Enter password" id="" placeholder="password"></Input>
+                    <Input label="Enter e-mail" id="" placeholder="name@email.com" ></Input>
+                    <Input type="password" label="Enter password" id="" placeholder="password"></Input>
                 </div>
                 <div className={style.break}></div>
                 <Button buttonText="register" variant="primary"></Button>
