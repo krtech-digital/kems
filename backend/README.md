@@ -78,32 +78,36 @@ import routes from '@/routes'
 <br>
 <br>
 
-## Local Development
+## Deploy to prod
 
-Run the server locally. It will be run with Nodemon and ready to serve on port `8080` (unless you specify it on your `.env`)
-
-```bash
- yarn start # or npm start
+To run docker container that is built for production:
 ```
+yarn run build-prod
+```
+open browser and go to http://localost:3001
 
-> Check [`package.json`](https://github.com/filoscoder/tenstack-starter/blob/master/package.json) to see more "scripts"
+Or push image to docker repository (deploy):
+```
+yarn run push-image
+```
+    NOTE: If push to docker registry fails login to Dockerhub. Ask admin for credentials.
+
 
 <br>
 <br>
 
-## Production
+## Deploy to prod
 
-First, build the application.
-
-```bash
- yarn build # or npm run build
+To run docker container that is built for production:
 ```
-
-Then, use [`pm2`](https://github.com/Unitech/pm2) to start the application as a service.
-
-```bash
- yarn service:start # or npm run service:start
+yarn run build-prod
 ```
+open browser and go to http://localost:3001
 
+Or push image to docker repository (deploy):
+```
+yarn run push-image
+```
+    NOTE: If push to docker registry fails login to Dockerhub. Ask admin for credentials.
 <br>
 <br>
